@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #2e3440;
+  font-family: "Fira Code", monospace;
+  display: grid;
+  place-items: center;
+}
+
+a {
+  color: #eceff4;
+  text-decoration: none;
+}
+
+.container {
+  color: #e5e9f0;
+  height: 400px;
+  width: 1200px;
+  padding: 8px;
+}
+
+.user,
+.search {
+  display: flex;
+  gap: 1em;
+}
+
+.user p {
+  display: flex;
+  gap: 3px;
+}
+
+.uname {
+  color: #ff5e78;
+}
+
+.uname:hover {
+  color: #ee99a0;
+}
+
+.cname {
+  color: #f8a488;
+}
+
+.links_container {
+  margin: 2em 0;
+  padding: 0 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  margin: 5px 0;
+}
+
+.links a:hover {
+  color: #b8b5ff;
+}
+
+.links p {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.anime,
+.programming p {
+  color: #00af91;
+}
+
+.social,
+.subreddits p {
+  color: #7868e6;
+}
+
+.music p {
+  color: #eca3f5;
+}
+
+#query {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1em;
+  color: #b8b5ff;
+  width: 1000px;
+}
+
+#submit {
+  display: none;
+}
+
+.greeting {
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 5s steps(40, end) infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
