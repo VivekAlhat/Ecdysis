@@ -32,7 +32,7 @@ a {
   gap: 1em;
 }
 
-.user,
+.user p,
 .search p {
   display: flex;
   gap: 3px;
@@ -95,25 +95,14 @@ a {
   background: none;
   font-size: 1em;
   color: #b8b5ff;
-  width: 1000px;
+  width: 950px;
+}
+
+#query::placeholder {
+  color: #a4a6aa;
+  opacity: 0.7;
 }
 
 #submit {
   display: none;
-}
-
-.greeting {
-  overflow: hidden;
-  white-space: nowrap;
-  letter-spacing: 0.15em;
-  animation: typing 5s steps(40, end) infinite alternate;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
