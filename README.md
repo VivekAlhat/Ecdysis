@@ -2,4 +2,11 @@
 
 A Minimal, Custom Start Page For Browser
 
-![Preview](preview.webp)
+### To-Do
+
+- [x] Google Search
+- [ ] Custom Themes
+- [ ] Bookmarks Manager
+- [ ] Spotify Integration (Possibly!)
+
+![Preview](preview.png)
