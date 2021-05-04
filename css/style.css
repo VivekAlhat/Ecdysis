@@ -32,7 +32,8 @@ a {
   gap: 1em;
 }
 
-.user p {
+.user,
+.search p {
   display: flex;
   gap: 3px;
 }
