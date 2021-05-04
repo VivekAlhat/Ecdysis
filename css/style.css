@@ -104,6 +104,11 @@ form {
   width: 900px;
 }
 
+#query::placeholder {
+  opacity: 0.5;
+  color: #e5e9f0;
+}
+
 #submit {
   display: none;
 }
