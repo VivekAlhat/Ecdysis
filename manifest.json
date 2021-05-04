@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Ecdysis",
+  "version": "1.0",
+  "description": "Minimal Custom Start Page For Modern Web Browser",
+  "icons": {
+    "96": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["tabs"]
+}

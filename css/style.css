@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background: #2e3440;
   font-family: "Fira Code", monospace;
+  font-size: 1em;
   display: grid;
   place-items: center;
 }
@@ -89,18 +90,18 @@ a {
   color: #eca3f5;
 }
 
+form {
+  display: flex;
+  align-items: center;
+}
+
 #query {
+  font-size: 1em;
   border: none;
   outline: none;
   background: none;
-  font-size: 1em;
   color: #b8b5ff;
-  width: 950px;
-}
-
-#query::placeholder {
-  color: #a4a6aa;
-  opacity: 0.7;
+  width: 900px;
 }
 
 #submit {
