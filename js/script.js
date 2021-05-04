@@ -1,3 +1,4 @@
 window.onload = () => {
-  const input = document.getElementById("query").focus();
+  const query = document.getElementById("query");
+  query.focus();
 };
